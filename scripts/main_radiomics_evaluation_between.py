@@ -76,7 +76,7 @@ if __name__ == "__main__":
                                gridspec_kw={'height_ratios': num_feat})
 
         for n, fcn in enumerate(feature_class_names):
-            feat_names = np.asarray([name.rsplit('_',1)[1] for name in metric_class_values[ds_name][use_anno][icc_type][fcn].keys()])
+            feat_names = np.asarray([name for name in metric_class_values[ds_name][use_anno][icc_type][fcn].keys()])
 
             # Sort by Median 
             all_pred_iccs = np.stack([np.asarray(list(metric_class_values[ds][use_anno][icc_type][fcn].values()))[:,1] for ds in datasets.keys()])
