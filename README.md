@@ -9,7 +9,7 @@ If you use the results or code, please cite the following paper:
 ```
 
 # Results 
-The ICC(1) value for each dataset and feature can be found in `reliability.json`.  
+The ICC(1) value for each dataset and feature can be found in `reliability.json` (median with 95%-confidence interval) or in `reliability.csv` (only median).  
 
 
 
