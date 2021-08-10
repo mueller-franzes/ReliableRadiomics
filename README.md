@@ -1,6 +1,6 @@
 # Reliable Radiomics 
 
-This is the code for the paper "Reliable Radiomics – Radiomic Reliability Analysis can Enhance Radiomic Machine Learning Algorithms" 
+This is the code for the paper "Reliability as a Precondition for Trust –Segmentation Reliability Analysis of Radiomic Features Improves Survival Prediction" 
 
 If you use the results or code, please cite the following paper:
 ```
